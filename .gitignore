@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# runtime files
+.pids
+*.pid
+*.seed
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
